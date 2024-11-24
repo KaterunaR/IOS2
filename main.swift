@@ -46,7 +46,7 @@ struct ContentView: View {
                         Text("Name:")
                             .font(.headline)
                             .foregroundColor(.blue)
-                        Text(name.isEmpty ? "unknown" : name)
+                        Text(name)
                             .font(.body)
                     }
 
@@ -54,7 +54,7 @@ struct ContentView: View {
                         Text("Surname:")
                             .font(.headline)
                             .foregroundColor(.blue)
-                        Text(surname.isEmpty ? "unknown" : surname)
+                        Text(surname)
                             .font(.body)
                     }
                 }
